@@ -6,4 +6,12 @@ You are working on a feature branch along with your teammates. While trying to m
 Explain the steps and Git commands required to identify the conflict, resolve it, and complete the merge successfully.
 
 Your solution:
-
+git checkout -b questions/no3
+git checkout main
+git pull origin main
+git merge questions/no3
+git status
+git add .
+git commit -m "resolve merge conflict"
+git push origin main
+// same as q2 , why is the question the same?
